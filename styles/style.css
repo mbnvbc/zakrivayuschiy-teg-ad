@@ -175,6 +175,11 @@
 .card__image_filter_1 { filter: sepia(80%) contrast(120%) brightness(90%); }
 .card__image_filter_2 { filter: grayscale(100%) contrast(150%); }
 .card__image_filter_3 { filter: hue-rotate(90deg) saturate(200%); }
+.card__image_filter_4 { filter: blur(2px) brightness(1.2); }
+.card__image_filter_5 { filter: invert(1) sepia(100%) saturate(500%) hue-rotate(90deg); }
+.card__image_filter_6 { filter: contrast(200%) drop-shadow(5px 5px 10px red); }
+.card__image_filter_7 { filter: sepia(100%) hue-rotate(180deg) contrast(150%); }
+.card__image_filter_8 { filter: grayscale(100%) invert(1) brightness(0.8); }
 
 .footer {
   display: flex;
