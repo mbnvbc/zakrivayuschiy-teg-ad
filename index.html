@@ -11,8 +11,119 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header">
+      <div class="header__logo">&lt;/HTML&gt;</div>
+      <h1 class="header__title">закрывающий тег</h1>
+    </header>
+
+    <main class="main">
+      <article class="card">
+        <h2 class="card__title">Сложно сосредоточиться</h2>
+        <div class="card__image-container">
+          <img class="card__image card__image_filter_1" src="./images/image-1.png" alt="Красивый пейзаж">
+          <span class="card__label">Вдохновение</span>
+        </div>
+        <div class="card__content">
+          <p class="card__text">Когда я начинал этот курс, мне казалось, что это невозможно. Но шаг за шагом, проект за проектом, я дошел до конца.</p>
+          <div class="card__buttons">
+            <button class="card__icon-button" type="button">
+              <svg class="like-icon" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg">
+                <g class="heart">
+                  <path class="contour" d="M12 32.5C7.5 28.5 2 23.5 2 16C2 9 8 5 13 9C14.5 10.5 16.5 12 19.5 12C22.5 12 24.5 10.5 26 9C31 5 37 9 37 16C37 23.5 31.5 28.5 27 32.5C22.5 36.5 19.5 34 19.5 34C19.5 34 16.5 36.5 12 32.5Z" fill="var(--contour-color)"/>
+                  <path class="core" d="M19.5 12C16.5 12 14.5 10.5 13 9C8 5 2 9 2 16C2 23.5 7.5 28.5 12 32.5C16.5 36.5 19.5 34 19.5 34C19.5 34 22.5 36.5 27 32.5C31.5 28.5 37 23.5 37 16C37 9 31 5 26 9C24.5 10.5 22.5 12 19.5 12Z"/>
+                  <path class="main-body" d="M19.5 15C17 15 15 13 13.5 11.5C9 7 4 11 4 17C4 23 9 28 13.5 32C17 35 19.5 33 19.5 33C19.5 33 22 35 25.5 32C30 28 35 23 35 17C35 11 30 7 25.5 11.5C24 13 22 15 19.5 15Z"/>
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)" d="M19.5 2V6M19.5 30V34M2 18H6M33 18H37M7 7L10 10M29 26L32 29M32 7L29 10M10 26L7 29"/>
+              </svg>
+            </button>
+            <button class="card__like-button button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+      
+      <article class="card">
+        <h2 class="card__title">Адаптивность — это весело</h2>
+        <div class="card__image-container">
+          <img class="card__image card__image_filter_2" src="./images/image-2.png" alt="Абстракция">
+          <span class="card__label">Дзен</span>
+        </div>
+        <div class="card__content">
+          <p class="card__text">Резиновая верстка сначала пугает, но когда видишь, как сайт подстраивается под любой экран, это приносит удовольствие.</p>
+          <div class="card__buttons">
+            <button class="card__icon-button" type="button">
+              <svg class="like-icon" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg">
+                <g class="heart">
+                  <path class="contour" d="M12 32.5C7.5 28.5 2 23.5 2 16C2 9 8 5 13 9C14.5 10.5 16.5 12 19.5 12C22.5 12 24.5 10.5 26 9C31 5 37 9 37 16C37 23.5 31.5 28.5 27 32.5C22.5 36.5 19.5 34 19.5 34C19.5 34 16.5 36.5 12 32.5Z" fill="var(--contour-color)"/>
+                  <path class="core" d="M19.5 12C16.5 12 14.5 10.5 13 9C8 5 2 9 2 16C2 23.5 7.5 28.5 12 32.5C16.5 36.5 19.5 34 19.5 34C19.5 34 22.5 36.5 27 32.5C31.5 28.5 37 23.5 37 16C37 9 31 5 26 9C24.5 10.5 22.5 12 19.5 12Z"/>
+                  <path class="main-body" d="M19.5 15C17 15 15 13 13.5 11.5C9 7 4 11 4 17C4 23 9 28 13.5 32C17 35 19.5 33 19.5 33C19.5 33 22 35 25.5 32C30 28 35 23 35 17C35 11 30 7 25.5 11.5C24 13 22 15 19.5 15Z"/>
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)" d="M19.5 2V6M19.5 30V34M2 18H6M33 18H37M7 7L10 10M29 26L32 29M32 7L29 10M10 26L7 29"/>
+              </svg>
+            </button>
+            <button class="card__like-button button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">Главное — не сдаваться</h2>
+        <div class="card__image-container">
+          <img class="card__image card__image_filter_3" src="./images/image-3.png" alt="Космос">
+          <span class="card__label">Финал</span>
+        </div>
+        <div class="card__content">
+          <p class="card__text">Каждый проект был вызовом. Но теперь я смотрю на свой код и понимаю, что прошел огромный путь.</p>
+          <div class="card__buttons">
+            <button class="card__icon-button" type="button">
+              <svg class="like-icon" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg">
+                <g class="heart">
+                  <path class="contour" d="M12 32.5C7.5 28.5 2 23.5 2 16C2 9 8 5 13 9C14.5 10.5 16.5 12 19.5 12C22.5 12 24.5 10.5 26 9C31 5 37 9 37 16C37 23.5 31.5 28.5 27 32.5C22.5 36.5 19.5 34 19.5 34C19.5 34 16.5 36.5 12 32.5Z" fill="var(--contour-color)"/>
+                  <path class="core" d="M19.5 12C16.5 12 14.5 10.5 13 9C8 5 2 9 2 16C2 23.5 7.5 28.5 12 32.5C16.5 36.5 19.5 34 19.5 34C19.5 34 22.5 36.5 27 32.5C31.5 28.5 37 23.5 37 16C37 9 31 5 26 9C24.5 10.5 22.5 12 19.5 12Z"/>
+                  <path class="main-body" d="M19.5 15C17 15 15 13 13.5 11.5C9 7 4 11 4 17C4 23 9 28 13.5 32C17 35 19.5 33 19.5 33C19.5 33 22 35 25.5 32C30 28 35 23 35 17C35 11 30 7 25.5 11.5C24 13 22 15 19.5 15Z"/>
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)" d="M19.5 2V6M19.5 30V34M2 18H6M33 18H37M7 7L10 10M29 26L32 29M32 7L29 10M10 26L7 29"/>
+              </svg>
+            </button>
+            <button class="card__like-button button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <button class="button footer__button" type="button" id="open-dialog">
+        <svg viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.5 0C10.5 0 10.5 10.5 0 10.5C10.5 10.5 10.5 21 10.5 21C10.5 21 10.5 10.5 21 10.5C10.5 10.5 10.5 0 10.5 0Z" fill="currentColor"/>
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+    </footer>
+
+    <dialog class="dialog" id="dialog">
+      <div class="modal">
+        <h3 class="modal__title">Ура! Теперь вы можете сохранить этот момент навсегда.</h3>
+        <div class="modal__content">
+          <svg class="modal__icon" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5 0C10.5 0 10.5 10.5 0 10.5C10.5 10.5 10.5 21 10.5 21C10.5 21 10.5 10.5 21 10.5C10.5 10.5 10.5 0 10.5 0Z" fill="currentColor"/>
+          </svg>
+          <button class="button modal__button" type="button" id="close-dialog">
+            <span class="button__text">ОК</span>
+          </button>
+        </div>
+      </div>
+    </dialog>
+
+    <script>
+      const dialog = document.getElementById('dialog');
+      document.getElementById('open-dialog').addEventListener('click', () => dialog.showModal());
+      document.getElementById('close-dialog').addEventListener('click', () => dialog.close());
+    </script>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
